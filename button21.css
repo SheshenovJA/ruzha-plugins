@@ -1,0 +1,19 @@
+
+a.button21 {
+   display: inline-block;
+   margin: 9px 0px;
+   color: #ffffff;
+   font-size: 16px;
+   font-weight: bold;
+   background: #ff804a;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+a.button21:hover{
+  background:  #4ad8ff;
+background-image: -webkit-linear-gradient(#4ad8ff, #3498db);
+background-image: -o-linear-gradient(#4ad8ff, #3498db);
+background-image: linear-gradient(#4ad8ff, #3498db);
+text-decoration: none;
+}

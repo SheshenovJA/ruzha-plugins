@@ -1,0 +1,137 @@
+
+#formOrderOneClick .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 99999;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+#formOrderOneClick .popup h2{
+  text-align: center;
+}
+#formOrderOneClick .popup {
+    background-color: #fff;
+    border: 2px solid #ff804a;
+    display: inline-block;
+    left: 50%;
+    opacity: 0;
+    padding: 15px;
+    width: 338px;
+    height: auto;
+    position: fixed;
+    text-align: justify;
+    top: 40%;
+    visibility: hidden;
+    z-index: 999999;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+
+}
+#formOrderOneClick .popup .close_order {
+      font-size: 13px;
+      display: block;
+      width: 6px;
+      height: 21px;
+      position: absolute;
+      padding: 1px 11px 4px 9px;
+      top: -15px;
+      right: -15px;
+      cursor: pointer;
+      color: #fff;
+      background-color: #ff804a;
+      border: 1px solid #ff6421;
+      text-align: center;
+}
+
+
+
+#formOrderOneClick input[type="email"], #contactform input[type="tel"], #contactform input[type="text"] {
+    color: #555;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 0px 7px;
+    margin: 0;
+    height: 25px;
+    text-align: left;
+    margin: 5px;
+    width: 90%;
+}
+#formOrderOneClick textarea{
+    resize: none;
+    color: #555;
+    padding: 6px;
+    width: 271px;
+    height: 80px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+    margin: 5px;
+}
+#formOrderOneClick input[type="checkbox"] {
+    float: left;
+}
+#formOrderOneClick .popup #contactform {
+    position: relative;
+
+    background: none;
+}
+#formOrderOneClick h6 {
+    display: block;
+    font-size: 16px;
+    margin: 5px;
+}
+#formOrderOneClick .button{
+    background: #ff804a;
+    border: 1px solid #ff6421;
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    width: 110px;
+    padding: 6px;
+    outline: medium none;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px auto;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+#formOrderOneClick .button:hover {
+    background-color: #4ad8ff;
+    border: 1px solid #00385E;
+    text-decoration: none;
+}
+#formOrderOneClick .button:active, #contactform input[type="submit"].button:disabled {
+
+}
+#formOrderOneClick .phoneFormat {
+    line-height: 12px;
+    font-size: 12px;
+    color: #555;
+    position: relative;
+    z-index: 20;
+    padding: 0;
+    margin: 0 13px;
+}
+#formOrderOneClick label {
+    font-size: 13px;
+}
